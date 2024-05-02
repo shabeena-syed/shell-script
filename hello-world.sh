@@ -1,2 +1,8 @@
 #/bin/bash
-echo "hello"
+NAME=shabbu
+
+ echo "print youy name"
+
+   read -p my name is:
+   $NAME
+
