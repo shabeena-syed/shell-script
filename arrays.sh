@@ -6,3 +6,4 @@ names = ( "zaara" , "shabbu", "sonu")
   # indication f arrays is ()
   #indication if list []
 echo "second name is : ${names[2]}"
+echo " all names is : ${names[@]}"  #---- @ defines ALL
