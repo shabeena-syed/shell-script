@@ -2,5 +2,5 @@
 #arguments
 person1 = $1
 person2 = $2
- echo "hii $person1"
+ echo  "$person1, hii:"
  echo "hello $person2"
