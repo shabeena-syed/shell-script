@@ -8,7 +8,7 @@ else
 echo "you are a super user"
 fi
 dnf instll mysql -y
-if [ $? -ne 0] # $? is used to chekc the previous command is succeful r not
+if [ $? -ne 0] # $? is used to chekc the previous command is succeful r not it is called exit status
  then 
   echo " installation of mysql is failure"
   exit 1
