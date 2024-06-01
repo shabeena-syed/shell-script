@@ -12,5 +12,6 @@ else
   NUMBER  = $2
   if [ $NUMBER -lt 20 ]
   then
-   echo " given value is gretare thn 20"
-   else echo " given value is less than 20 "
+    echo " given value is gretare thn 20"
+  else 
+    echo " given value is less than 20 "
