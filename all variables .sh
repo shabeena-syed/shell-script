@@ -3,3 +3,9 @@
  
  echo "HOST NAME : $HOSTNAME"
  echo " process id of the current script : $$ "
+ echo "$@"
+ echo "$#"
+ echo "$$"
+ echo "$0"
+ echo "$PWD"
+ 
