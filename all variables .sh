@@ -1,4 +1,4 @@
 #!/bin/bash
 
  
- echo "print number of variables : $# "
+ echo "script name : $0 "
