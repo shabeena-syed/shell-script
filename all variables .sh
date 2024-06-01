@@ -1,4 +1,4 @@
 #!/bin/bash
 
  
- echo "print all variabls : $@ "
+ echo "print number of variables : $# "
