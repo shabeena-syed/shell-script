@@ -1,4 +1,4 @@
 #!/bin/bash
 
  
- echo "script name : $0 "
+ echo "current working directory : $PWD"
