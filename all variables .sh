@@ -1,4 +1,4 @@
 #!/bin/bash
 
  
- echo "current working directory : $PWD"
+ echo "current working directory : $0"
