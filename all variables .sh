@@ -1,4 +1,4 @@
 #!/bin/bash
 
  
- echo "HOST NAME : $hostname"
+ echo "HOST NAME : $HOSTNAME"
