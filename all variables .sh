@@ -1,4 +1,4 @@
 #!/bin/bash
 
  
- echo "current working directory : $0"
+ echo "HOST NAME : $hostname"
