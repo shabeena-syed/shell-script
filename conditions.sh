@@ -1,7 +1,7 @@
 #!/bin/bash
 NUMBER=$80
  
-if [ $NUMBER -ge 80 ]
+if [ $NUMBER -gt 80 ]
 read -p "please enter your number"
 then
    echo "given number is grater then 80"
