@@ -1,11 +1,13 @@
 #!/bin/bash
 NUMBER=$80
 read -p "please enter your number"
-if [ NUMBER -gt 80 ]
+if [  NUMBER -gt 80 ]
 then
    echo "given number is grater then 80"
 else 
    echo "given number is les than 80"
+else
+   echo "given number is equal"
 fi
 
 #-gt ,-lt, -ge , -le 
