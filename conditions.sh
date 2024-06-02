@@ -21,4 +21,5 @@ then
 else {
    echo " given value is less than 20 "
 }   
- 
+
+fi
