@@ -9,7 +9,7 @@ fi
  
  dnf install nginx -y
 
-  if [ $? -ne 0]
+  if [ $? -ne 0 ]
   then
     echo "instllation of nginx is .....FAILURE"
     exit 1
