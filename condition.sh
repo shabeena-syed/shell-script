@@ -18,7 +18,12 @@ fi
   fi
 
   dnf install git -y
+ dnf install nodejs -y
 
+  #$? =exit status= it means it wll chek the last status of the script
+#   if is succesful next script will be executer
+#   f not 
+ 
 
 
 
