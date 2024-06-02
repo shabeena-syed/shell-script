@@ -7,6 +7,8 @@ else
    echo "u are asuper user"
 fi
  exit 1
+ dnf install nginx -y
+ 
 
 
 
