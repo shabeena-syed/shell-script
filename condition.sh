@@ -2,13 +2,18 @@ USERID=$(id -u)
 if [ $USERID -ne 0 ]
 then
    echo "please run with root user"
-   
+   exit 1
 else
    echo "u are asuper user"
 fi
- exit 1
- dnf install nginx -y
  
+ dnf install nginx -y
+  if [ $? -ne 0]
+    echo " instllation of nginx is .....FAILURE"
+  else 
+    echo " server is installing"
+  fi
+
 
 
 
