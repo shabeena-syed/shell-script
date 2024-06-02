@@ -24,8 +24,10 @@ fi
      echo " installing  failure "
      exit 1
   else
-     echo " failure"
+     echo "failure"
    fi
+
+   echo " total variables :"
 
   #$? =exit status= it means it wll chek the last status of the script
 #   if is succesful next script will be executer
