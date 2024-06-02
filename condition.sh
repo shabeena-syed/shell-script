@@ -6,9 +6,14 @@ then
 else
    echo "u are asuper user"
 fi
+ exit 1
 
-dnf install mysql -y
-echo " script is proceeding"
+
+
+# if [ $? -ne 0 ]
+# dnf install -y
+
+# echo " script is proceeding"
 
 
 # disadvantage 
