@@ -1,11 +1,9 @@
 #!/bin/bash
- NUMBER=$?
- 
-if [ $NUMBER -gt $? ]
+NUMBER=$80
 read -p "please enter your number" 
+if [ $NUMBER -ge 80 ]
 then
-   echo " given number is greater than 80"
- 
+   echo " given number is greater than equal to  80"
 else 
    echo "given number is les than 80"
 fi
