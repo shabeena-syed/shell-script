@@ -19,6 +19,13 @@ fi
 
   dnf install git -y
  dnf install nodejs -y
+  if [ $? -ne 0 ] 
+  then 
+     echo " installing  failure "
+     exit 1
+  else
+     echo " failure"
+   fi
 
   #$? =exit status= it means it wll chek the last status of the script
 #   if is succesful next script will be executer
