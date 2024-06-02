@@ -27,7 +27,7 @@ fi
      echo "failure"
    fi
 
-   echo " total variables :"
+   echo " total variables : $@"
 
   #$? =exit status= it means it wll chek the last status of the script
 #   if is succesful next script will be executer
