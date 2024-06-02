@@ -7,4 +7,6 @@ then
     echo "given number is grater then $NUMBER" 
 else 
     echo "given number is les then $NUMBER"
+else 
+    echo "given number is eq to $NUMBER"
 fi 
