@@ -1,6 +1,6 @@
 #!/bin/bash 
 NUMBER=$70
-read -p "please enter your number": USER_NUMBER 
+read -p "please enter your number: " USER_NUMBER 
 
 if [ "$USER_NUMBER" -gt "$NUMBER" ]
 then
