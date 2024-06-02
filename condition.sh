@@ -10,6 +10,7 @@ fi
  dnf installl nginx -y
   if [ $? -ne 0]
     echo " instllation of nginx is .....FAILURE"
+    exit 1
   else 
     echo " server is installing"
   fi
