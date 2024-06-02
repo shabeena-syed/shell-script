@@ -7,7 +7,7 @@ else
    echo "u are asuper user"
 fi
  
- dnf installl nginx -y
+ dnf install nginx -y
 
   if [ $? -ne 0]
   then
