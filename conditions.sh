@@ -1,5 +1,5 @@
 #!/bin/bash
- NUMBER=$1 
+ NUMBER=$4
 if [ $NUMBER -gt 10 ] 
 then
    echo " given no $NUMBER is greater than 10"
